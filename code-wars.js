@@ -1,3 +1,17 @@
+//Check same case
+function sameCase(a, b){
+  let letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+  if(letters.includes(a.toLowerCase()) && letters.includes(b.toLowerCase())){
+    if(a === a.toLowerCase() && b === b.toLowerCase() || a === a.toUpperCase() && b === b.toUpperCase()){
+      return 1
+    }else{
+      return 0
+    }
+  }else{
+    return -1
+  }
+}
+
 //Fundamentals: Return
 function add(a,b){
   return a + b
