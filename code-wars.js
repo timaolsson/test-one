@@ -1,3 +1,12 @@
+//Powers of 2
+function powersOfTwo(n){
+  let arr = []
+  for(let i = 0; i <= n; i++){
+    arr.push(Math.pow(2, i))
+  }
+  return arr
+}
+
 //Check same case
 function sameCase(a, b){
   let letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
