@@ -1,3 +1,16 @@
+//Freudian translator
+function toFreud(string) {
+  let arr = string.split(' ')
+  let answer = ''
+  console.log(arr)
+  if (arr[0] === ''){
+    return ""
+  }else{
+    arr.forEach(x => answer += ' sex')
+  }
+return answer.trim();
+}
+
 //Powers of 2
 function powersOfTwo(n){
   let arr = []
