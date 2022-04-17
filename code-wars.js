@@ -1,3 +1,17 @@
+//If you can't sleep, just count sheep!!
+var countSheep = function (num){
+  let message = ''
+  if(num === 0){
+    return message
+  }
+  else{
+  for(let i = 1; i <= num; i ++){
+    message += `${i} sheep...`
+    }
+  }
+  return message
+}
+
 //Freudian translator
 function toFreud(string) {
   let arr = string.split(' ')
