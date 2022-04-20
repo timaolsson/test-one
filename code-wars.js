@@ -1,3 +1,8 @@
+//Name Shuffler
+function nameShuffler(str){
+  return str.split(' ').reverse().join().replace(',',' ')
+}
+
 //Opposites Attract
 function lovefunc(flower1, flower2){
   return (flower1 + flower2) % 2 === 1
