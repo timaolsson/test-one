@@ -1,3 +1,16 @@
+//Remove String Spaces
+function noSpace(x){
+  let arr = x.split('')
+  let answer = []
+  arr.forEach(x => {
+    console.log(x)
+    if(x !== ' '){
+      answer.push(x)
+    }
+  })
+  return answer.join('')
+}
+ 
 //Name Shuffler
 function nameShuffler(str){
   return str.split(' ').reverse().join().replace(',',' ')
