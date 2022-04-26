@@ -1,3 +1,12 @@
+//Sort numbers
+function solution(nums){
+  if(nums){
+      return nums.sort(function(a, b){return a-b});
+  }else{
+    return []
+  }
+}
+
 //Remove String Spaces
 function noSpace(x){
   let arr = x.split('')
