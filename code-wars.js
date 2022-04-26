@@ -1,3 +1,33 @@
+//You Got Change?
+function giveChange(amount) {
+  let tracker = amount
+  let answer = [0,0,0,0,0,0]
+  if(tracker >= 100){
+    answer[5] = Math.floor(tracker / 100)
+    tracker = tracker - (answer[5] * 100)
+  }
+  if(tracker >= 50){
+    answer[4] = Math.floor(tracker / 50)
+    tracker = tracker - (answer[4] * 50)
+  }  
+  if(tracker >= 25){
+    answer[3] = Math.floor(tracker / 25)
+    tracker = tracker - (answer[3] * 25)
+  }
+  if(tracker >= 10){
+      answer[2] = Math.floor(tracker / 10)
+      tracker = tracker - (answer[2] * 10)
+  }
+  if(tracker >= 5){
+      answer[1] = Math.floor(tracker / 5)
+      tracker = tracker - (answer[1] * 5)
+  }
+  if(tracker > 0){
+    answer[0] = tracker
+  }
+  return answer
+}
+
 //Sort numbers
 function solution(nums){
   if(nums){
