@@ -1,3 +1,24 @@
+//Cat years,Dog years
+var humanYearsCatYearsDogYears = function(humanYears) {
+  let answer = [0,0,0]
+  answer[0] = humanYears
+  if(humanYears === 1){
+    answer[1] = 15
+  }else if(humanYears === 2){
+    answer[1] = 24
+  }else{
+    answer[1] = 24 + (humanYears - 2) * 4
+  }
+  if(humanYears === 1){
+    answer[2] = 15
+  }else if(humanYears === 2){
+    answer[2] = 24
+  }else{
+    answer[2] = 24 + (humanYears - 2) * 5
+  }
+  return answer
+}
+
 //You Got Change?
 function giveChange(amount) {
   let tracker = amount
