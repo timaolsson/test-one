@@ -1,3 +1,8 @@
+//Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return distanceToPump <= mpg * fuelLeft
+};
+
 //Cat years,Dog years
 var humanYearsCatYearsDogYears = function(humanYears) {
   let answer = [0,0,0]
