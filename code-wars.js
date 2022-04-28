@@ -2,6 +2,9 @@
 function countPositivesSumNegatives(input) {
   let sumOfNeg = 0
   let countOfPos = 0
+  if(!input || input.length == 0){
+    return []
+  }
   input.forEach(x => {
     if(x > 0){
       countOfPos++
@@ -12,6 +15,7 @@ function countPositivesSumNegatives(input) {
   let answer = [countOfPos, sumOfNeg]
   return answer;
 }
+
 
 //Will you make it?
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
