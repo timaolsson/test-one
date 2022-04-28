@@ -1,3 +1,18 @@
+//Counof positives/sum of negatives
+function countPositivesSumNegatives(input) {
+  let sumOfNeg = 0
+  let countOfPos = 0
+  input.forEach(x => {
+    if(x > 0){
+      countOfPos++
+    }else if(x < 0){
+      sumOfNeg += x
+    }
+  })
+  let answer = [countOfPos, sumOfNeg]
+  return answer;
+}
+
 //Will you make it?
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   return distanceToPump <= mpg * fuelLeft
