@@ -1,4 +1,11 @@
-//Counof positives/sum of negatives
+//Volumne of a Cuboid
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height
+  }
+}
+
+//Count of positives/sum of negatives
 function countPositivesSumNegatives(input) {
   let sumOfNeg = 0
   let countOfPos = 0
