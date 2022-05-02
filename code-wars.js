@@ -1,3 +1,12 @@
+//String repeat
+function repeatStr (n, s) {
+  let answer = ''
+  for(let i = 1;i <= n; i++){
+    answer += s
+  }
+  return answer
+}
+
 //Volumne of a Cuboid
 class Kata {
   static getVolumeOfCuboid(length, width, height) {
