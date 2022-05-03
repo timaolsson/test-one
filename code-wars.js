@@ -1,3 +1,8 @@
+//Plural
+function plural(n) {
+  return (n < 1 || n > 1)
+}
+
 //Grasshopper-Summation
 var summation = function (num) {
   let sum = 0
