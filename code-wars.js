@@ -1,3 +1,8 @@
+//Count Odd Numbers below n
+function oddCount(n){
+  return Math.floor(n / 2)
+}
+
 //Convert a String to a Number!
 var stringToNumber = function(str){
   return Number(str);
