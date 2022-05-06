@@ -1,3 +1,8 @@
+//Convert a String to a Number!
+var stringToNumber = function(str){
+  return Number(str);
+}
+
 //Plural
 function plural(n) {
   return (n < 1 || n > 1)
