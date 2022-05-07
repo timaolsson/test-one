@@ -1,3 +1,12 @@
+//Are You Playing Banjo?
+function areYouPlayingBanjo(name) {
+  if(name[0] === 'R' || name[0] === 'r'){
+    return name + ' plays banjo'
+  }else{
+    return name + ' does not play banjo'
+  }
+}
+
 //Count Odd Numbers below n
 function oddCount(n){
   return Math.floor(n / 2)
