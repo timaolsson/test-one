@@ -1,3 +1,10 @@
+//Abbreviate a Two Word Name
+function abbrevName(name){
+  const words = name.split(' ')
+  let initials = `${words[0][0]}.${words[1][0]}`
+  return initials
+}
+
 //Are You Playing Banjo?
 function areYouPlayingBanjo(name) {
   if(name[0] === 'R' || name[0] === 'r'){
