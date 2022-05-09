@@ -2,7 +2,7 @@
 function abbrevName(name){
   const words = name.split(' ')
   let initials = `${words[0][0]}.${words[1][0]}`
-  return initials
+  return initials.toUpperCase()
 }
 
 //Are You Playing Banjo?
