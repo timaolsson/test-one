@@ -1,3 +1,9 @@
+//A Needle in the Haystack Solution
+function findNeedle(haystack) {
+  let position = haystack.indexOf('needle')
+  return `found the needle at position ${position}`
+}
+
 //Abbreviate a Two Word Name
 function abbrevName(name){
   const words = name.split(' ')
