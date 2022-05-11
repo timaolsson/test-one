@@ -1,3 +1,16 @@
+//Stringy strings
+function stringy(size) {
+  let stringy = ''
+  for(let i = 1; i <= size;i++){
+    if(i % 2 === 0){
+      stringy += '0'
+    }else{
+      stringy += '1'
+    }
+  }
+  return stringy
+}
+
 //A Needle in the Haystack Solution
 function findNeedle(haystack) {
   let position = haystack.indexOf('needle')
