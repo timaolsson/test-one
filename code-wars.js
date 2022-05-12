@@ -1,3 +1,14 @@
+//Odd or Even? Determine that!
+function oddOrEven(n) {
+  if(n === 1){
+    return 'Either'
+  }else if((n / 2) % 2 === 1){
+    return 'Odd'
+  }else{
+    return 'Even'
+  }
+}
+
 //Stringy strings
 function stringy(size) {
   let stringy = ''
